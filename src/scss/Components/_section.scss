@@ -1,0 +1,57 @@
+.section {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(36, 36, 35, 1) 0%, rgba(15, 15, 15, 1) 70%);
+    @media screen and (min-width:767px) {
+    }
+
+    &__image {
+        background-position: center;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        background-image: url(../../assets/pp.png);
+        border-radius: 50%;
+    }
+
+    &__container {
+        margin: 40px 0px;   
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    &__title {
+        color: white;
+        font-family: "Raleway";
+        font-size: 35px;
+        font-weight: 800;
+        @media screen and (min-width: 767px) {
+
+        }
+    }
+
+    &__text {
+        color: white;
+        font-family: "Raleway";
+        font-size: 16px;
+        @media screen and (min-width: 767px) {
+            font-size: 20px;
+        }
+    }
+
+    &__langages {
+        font-weight: 800;
+        color: #79b3f4;
+    }
+}
+
+.p-top {
+    text-align: left;
+}
+
+.p-bot {
+    text-align: center;
+}
