@@ -15,9 +15,9 @@ export default function Router() {
     <RouterContainer>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Accueil setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen} />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='react-portfolio/' element={<Accueil setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen} />} />
+        <Route path='react-portfolio/contact' element={<Contact />} />
+        <Route path='react-portfolio/portfolio' element={<Portfolio />} />
       </Routes>
       <Footer />
       {/* <Modal
